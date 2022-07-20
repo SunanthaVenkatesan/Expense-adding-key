@@ -1,0 +1,22 @@
+//use state returns array and will always have two values and 1st is the current state and 2nd is the function for updating value
+  //is a hook and should bde called only inside a function and not even inside nested function 
+  //use state will create a special kind of variable for eventhandler
+ 
+  //const [amount,setAmount] =useState(props.amount)
+
+
+  //using props we can make the component reusable and allows us to pass data from another component--key concept
+  //the custom component must start with uppercase as we are using as JSX and react should detect as custom since lowercase are for default builtin HTML elements
+  //const clickHandler=()=>{//is a fucntion that is atatched to the event listener and that is called upon the trigger of event 
+    
+    //setTitle("updated!")//this will not just call the function but,the whole component will be called again 
+    //console.log(title)
+  //}
+  /*const addclickHandler=()=>{
+    setAmount(+100)
+    console.log(amount)
+  }*/
+
+ARRAY MAP INDEXING 
+  All the items in the react will look similar for it and only upon instruction it will know to add the items in the 
+  correct place ,So KEY is required for that and it updates the list in more efficient way 
